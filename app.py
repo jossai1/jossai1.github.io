@@ -15,7 +15,7 @@ def gotomap():
 
    
 @app.route("/about")
-def gotomap():
+def gotoabout():
     return render_template("about.html")
 
 if __name__=="__main__":

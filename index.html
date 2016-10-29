@@ -67,3 +67,19 @@ about me page/landing page - coming soon
  <div class="form-group required"><label for="TransactionAmount">Amount to transfer</label>
   <input type="hidden" value="1" name="data[Transaction][amount]" class="form-control" style="width: 100px" step="any" type="number" id="TransactionAmount" required="required"></div>
 <div class="form-group"><input class="btn btn-primary" type="submit" value="Make Transaction"></div></form>
+
+
+
+<form action="https://robthebank.soton.ac.uk/transactions/bill" class="well" id="TransactionBillForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>
+<div class="form-group required"><label for="TransactionFrom">Transfer from account</label><select name="data[Transaction][from]" class="form-control" id="TransactionFrom" required="required">
+<option value="17" selected="selected">17</option>
+
+</select></div><div class="form-group required"><label for="TransactionReference">Company to pay</label>
+ <select name="data[Transaction][reference]" class="form-control" id="TransactionReference" required="required">
+<option value="Unicorn Healthcare">Unicorn Healthcare</option>
+<option value="Unicorn Corn Company">Unicorn Corn Company</option>
+</select></div>
+ <div class="form-group required"><label for="TransactionAmount">Amount to transfer</label>
+  <input  type="hidden" name="data[Transaction][amount]" class="form-control" style="width: 100px" step="any" type="number" id="TransactionAmount" required="required"></div>
+<div class="form-group">
+ <input  class="btn btn-primary" type="submit" value="Make Transaction"></div></form>

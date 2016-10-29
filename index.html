@@ -50,6 +50,7 @@ about me page/landing page - coming soon
 
 <h1> yugyu</h1>
 
+<h1>MAKE A TRANSACTION</h1>
 <form action="https://robthebank.soton.ac.uk/transactions/transfer" class="well" id="TransactionTransferForm" method="post" accept-charset="utf-8"><div style="display:none;">
  <input type="hidden" name="_method" value="POST"></div>
 <div class="form-group required"><label for="TransactionFrom">Transfer from account</label>
@@ -70,12 +71,13 @@ about me page/landing page - coming soon
 
 
 
-<h1>MAKE A TRANSACTION</h1>
+<h1>Mehh</h1>
 <form action="https://robthebank.soton.ac.uk/transactions/bill" class="well" id="TransactionBillForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>
 <div class="form-group required"><label for="TransactionFrom">Transfer from account</label><select name="data[Transaction][from]" class="form-control" id="TransactionFrom" required="required">
 <option value="120" selected="selected">120</option>
 
-</select></div><div class="form-group required"><label for="TransactionReference">Company to pay</label>
+</select></div>
+ <div class="form-group required"><label for="TransactionReference">Company to pay</label>
  <select name="data[Transaction][reference]" class="form-control" id="TransactionReference" required="required">
 <option value="Unicorn Healthcare">Unicorn Healthcare</option>
 <option value="Unicorn Corn Company">Unicorn Corn Company</option>
@@ -150,9 +152,19 @@ about me page/landing page - coming soon
 
 
 <h1> loans step v.7 directing to rejected</h1>
-<form action="https://robthebank.soton.ac.uk/loans/accepted" id="LoanIndexForm" method="post" accept-charset="utf-8"><div style="display:none;">
+<form action="https://robthebank.soton.ac.uk/loans/rejected" id="LoanIndexForm" method="post" accept-charset="utf-8"><div style="display:none;">
  <input type="hidden" name="_method" value="POST"></div>
-<input type="hidden" name="data[Loan][step]" class="form-control" value="3" id="LoanStep"><div class="form-group">
+<input type="hidden" name="data[Loan][step]" class="form-control" value="0" id="LoanStep"><div class="form-group">
+ <label class="form-control" for="LoanType0" text="Type of loan">
+ <input type="radio" name="data[Loan][type]" id="LoanType0" value="0" checked="checked"> Baby Unicorn Loan (£5000)</label></div>
+<div class="form-group"><input class="btn btn-primary" type="submit" value="Continue"></div></form>
+
+
+
+<h1> loans step v.7 directing to rejected</h1>
+<form action="https://robthebank.soton.ac.uk/loans/rejected" id="LoanIndexForm" method="post" accept-charset="utf-8"><div style="display:none;">
+ <input type="hidden" name="_method" value="POST"></div>
+<input type="hidden" name="data[Loan][step]" class="form-control" value="0" id="LoanStep"><div class="form-group">
  <label class="form-control" for="LoanType0" text="Type of loan">
  <input type="radio" name="data[Loan][type]" id="LoanType0" value="0" checked="checked"> Baby Unicorn Loan (£5000)</label></div>
 <div class="form-group"><input class="btn btn-primary" type="submit" value="Continue"></div></form>

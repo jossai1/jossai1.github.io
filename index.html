@@ -161,10 +161,33 @@ about me page/landing page - coming soon
 
 
 
-<h1> loans step v.7 directing to rejected</h1>
-<form action="https://robthebank.soton.ac.uk/loans/rejected" id="LoanIndexForm" method="post" accept-charset="utf-8"><div style="display:none;">
+<h1> loans step v.8 directing to rejected</h1>
+<form action="https://robthebank.soton.ac.uk/loans" id="LoanIndexForm" method="post" accept-charset="utf-8"><div style="display:none;">
  <input type="hidden" name="_method" value="POST"></div>
 <input type="hidden" name="data[Loan][step]" class="form-control" value="0" id="LoanStep"><div class="form-group">
  <label class="form-control" for="LoanType0" text="Type of loan">
  <input type="radio" name="data[Loan][type]" id="LoanType0" value="0" checked="checked"> Baby Unicorn Loan (£5000)</label></div>
+<div class="form-group"><input class="btn btn-primary" type="submit" value="Continue"></div></form>
+
+
+
+
+<h1> step:2 apply for a loan</h1>
+
+<form action="https://robthebank.soton.ac.uk/loans" id="LoanIndexForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>
+<input name="data[Loan][step]" class="form-control" value="1" id="LoanStep"><div class="form-group">
+ <label for="LoanDescription">Why are you applying for this loan?</label>
+ <textarea value="diofhidohodovh" name="data[Loan][description]" class="form-control" required="required" cols="30" rows="6" id="LoanDescription"></textarea><grammarly-btn>
+ <div style="visibility: hidden; z-index: 2;" class="_9b5ef6-textarea_btn _9b5ef6-not_focused" data-grammarly-reactid=".0"><div class="_9b5ef6-transform_wrap" data-grammarly-reactid=".0.0">
+  <div title="Protected by Grammarly" class="_9b5ef6-status" data-grammarly-reactid=".0.0.0">&nbsp;</div></div></div></grammarly-btn></div>
+ <div class="form-group">
+  <label for="LoanChosen">Why have you chosen Rob the Bank?</label>
+  <textarea value="diofhidohodovh" name="data[Loan][chosen]" class="form-control" required="required" cols="30" rows="6" id="LoanChosen"></textarea>
+  <grammarly-btn><div style="visibility: hidden; z-index: 2;" class="_9b5ef6-textarea_btn _9b5ef6-not_focused" data-grammarly-reactid=".3"><div class="_9b5ef6-transform_wrap" data-grammarly-reactid=".3.0">
+   <div title="Protected by Grammarly" class="_9b5ef6-status" data-grammarly-reactid=".3.0.0">&nbsp;</div></div></div></grammarly-btn></div><div class="form-group">
+ <label for="LoanRepay">How are you planning to afford the repayments?</label>
+ <textarea value="diofhidohodovh" name="data[Loan][repay]" class="form-control" required="required" cols="30" rows="6" id="LoanRepay"></textarea><grammarly-btn>
+ <div style="visibility: hidden; z-index: 2;" class="_9b5ef6-textarea_btn _9b5ef6-not_focused" data-grammarly-reactid=".6">
+ <div class="_9b5ef6-transform_wrap" data-grammarly-reactid=".6.0">
+ <div title="Protected by Grammarly" class="_9b5ef6-status" data-grammarly-reactid=".6.0.0">&nbsp;</div></div></div></grammarly-btn></div>
 <div class="form-group"><input class="btn btn-primary" type="submit" value="Continue"></div></form>

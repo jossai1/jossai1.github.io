@@ -1,0 +1,99 @@
+h1 {
+  color: silver;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: #caa0a0;
+}
+
+h4{
+  color: rgb(174, 169, 131); /*dusty gold*/
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+h5{
+  color: #98878f;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.image img{
+  border-radius: 50%;
+  font-size: 4px;
+  width:250px;
+}
+.image {
+  text-align: center;
+}
+
+.portfolio-item img{
+  width: 324px;
+  height: 219px;
+  margin-top: 15%;
+  /*border-radius: 5%;*/
+}
+
+.fig-caption a {
+  color: rgb(174, 169, 131); /*dusty gold*/
+  text-decoration:none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.225rem;
+}
+a:hover {
+    color: #98878f;
+}
+
+.link a {
+  color: #192231;
+}
+.portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+
+}
+hr{
+  /*background-color: silver;
+  border:none;*/
+  height: 1px;
+}
+
+.skills {
+  color: rgb(174, 169, 131);
+}
+
+
+
+.list-inline li a {
+  border: solid 1px rgb(174, 169, 131);
+  display: flex;
+  align-items: center;
+  /*border-radius: 100%;*/
+
+  padding: 20px;
+  font-size: 30px;
+  /*width: 30px;*/
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+
+}
+
+.list-inline li a:hover{
+  color: rgb(174, 169, 131);
+  text-decoration: none;
+}
+
+.btn-social{
+  font-size: 50px;
+  color: #c8cccf;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.225rem;
+}
+span{
+  letter-spacing: 0.225rem;
+}

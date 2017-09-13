@@ -1,3 +1,6 @@
+p{
+  font-size: 20px;
+}
 h1 {
   color: silver;
   font-family: 'Source Sans Pro', sans-serif;
@@ -17,12 +20,13 @@ h5{
   font-weight: 400;
 }
 
-.image img{
+.profile-img img{
   border-radius: 50%;
   font-size: 4px;
   width:250px;
 }
-.image {
+
+.profile-img {
   text-align: center;
 }
 
@@ -32,6 +36,26 @@ h5{
   margin-top: 15%;
   /*border-radius: 5%;*/
 }
+
+.skill {
+  background-color: #c0a983!important;
+  border-color: #E03997!important;
+  color: white !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.225rem;
+}
+
+.skills a {
+  margin: 1%;
+  font-size: large;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover { transform: scale(1.1); }
 
 .fig-caption a {
   color: rgb(174, 169, 131); /*dusty gold*/
@@ -57,12 +81,6 @@ hr{
   border:none;*/
   height: 1px;
 }
-
-.skills {
-  color: rgb(174, 169, 131);
-}
-
-
 
 .list-inline li a {
   border: solid 1px rgb(174, 169, 131);

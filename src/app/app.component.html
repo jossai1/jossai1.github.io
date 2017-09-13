@@ -40,16 +40,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <div class="image">
+        <div class="profile-img">
           <img src="../assets/images/my-pic.jpg" alt="pic">
         </div>
         <h1>JANE OSSAI</h1>
         <hr>
-        <span class="skills"> Tech | Innovation | UX </span>
+        <span style="color:  rgb(174, 169, 131);font-weight: 300; font-size: large;"> Tech | Innovation | UX </span>
 
         <br> <br>
 
-        <p> 3rd year of MEng Computer Science at the University of Southampton.
+        <p> 4th year of MEng Computer Science at the University of Southampton.
           <br>
           <br> Passionate about Technology, Innovation, UX and Nigeria.
 
@@ -57,7 +57,13 @@
           <br> Aspiring to inspire.
         </p>
 
-        <a class="btn btn-default page-scroll" href="#about"> Read More </a>
+        <a class=" page-scroll" href="#about">
+          <button class="circular basic ui icon button">
+            <i style="color:#c0a983;font-weight: bold;" class="angle down icon"></i>
+          </button>
+        </a>
+
+        <!-- <a class="btn btn-default page-scroll" href="#about"> Read More </a> -->
 
         <!-- <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
                 <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a> -->
@@ -74,70 +80,197 @@
         <h1>About</h1>
 
         <p>
-          I am a highly motivated and driven undergraduate in my 3rd year of MEng Computer Science at the University of Southampton.
-          <br> I am determined, quick to pick up new skills and eager to learn from others.
-          <br> The wide range of customer service and IT related positions I have held in the past have given me a variety of invaluable skills that I can adapt to various work cultures.
-
+          I am a highly motivated and driven undergraduate in my 4th year of MEng Computer Science at the University of Southampton.
         </p>
-        <br>
-        <h4 > Core Languages </h4>
-        <p>
-          I currently code in <strong>Java</strong> and am profficient in various Javascript frameworks such as <strong>Angular 2</strong> and <strong> AngularJS</strong>. </p>
+          <br>
+          <p>I am determined, quick to pick up new skills and eager to learn from others.</p>
 
-        <br>
+          <br>
+          <p>
+          The wide range of customer service and IT related positions I have held in the past have given me a variety of invaluable
+          <a href="#skills" style="color:rgb(174, 169, 131);"class="page-scroll">  skills </a>
+          that I can adapt to various work cultures.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <h5> Others</h5>
-        <p> I am familiar with: Python, Scheme, Ocaml, C# . </p>
-        <br>
-        <p>I've built several Angular 2 and AngularJs web apps, a mobile app using the <strong>Ionic Framework</strong>, various games using <strong> Unity</strong> and various <strong>MEAN stack </strong> web applications.</p>
-        <a class="btn btn-default page-scroll" href="#portfolio"> View My Projects Here</a>
+<!-- About Section -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Skills</h1>
+
+        <div class="ui circular labels skills">
+          <a *ngFor="let skill of skills" class="ui label skill grow">
+            {{skill}}
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Services Section -->
-<section id="portfolio" class="services-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
+<section id="portfolio" class="portfolio-section">
+
+<div class="ui container">
+  <div class="ui grid">
+    <div class="centered column" >
         <h1>Portfolio</h1>
-      </div>
     </div>
-    <div class="row">
-      <div class="col-sm-4 portfolio-item">
-        <!-- <a href="http://lyrics-now.herokuapp.com/#/" class="portfolio-link" data-toggle="modal"> </a> -->
-          <figure>
+
+
+      <div class="ui three stackable cards">
+
+
+        <div class="ui card">
+          <div class="image">
             <img src="../assets/images/lyrics-now.jpg">
-            <figcaption class="fig-caption" > <a href="http://lyrics-now.herokuapp.com/#/" target="_blank"> Simple Lyric Finder </a></figcaption>
-          </figure>
+          </div>
+          <div class="content">
+            <a class="header">Lyric Finder</a>
+            <div class="meta">
+              <span class="date">August 2016</span>
+            </div>
+            <div class="description">
+              My first Angular 2 web app. A simple lyric finder that leverages the Musixmatch API to allow users to find lyrics to songs. Hosted on Heroku
+            </div>
+          </div>
+          <div class="extra content">
+            <a href="https://github.com/jossai1/lyrics-now" target="_blank">
+              <i class="github icon"></i>
+              Code
+            </a>
 
-      </div>
-      <div class="col-sm-4 portfolio-item">
-        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">  </a>
-          <figure>
-            <img src="../assets/images/meeting-room.png">
-            <figcaption class="fig-caption" > <a href="#Portfolio"> Survey system with built in Admin UI </a></figcaption>
-          </figure>
-      </div>
-      <div class="col-sm-4 portfolio-item">
-        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal"> </a>
-          <figure>
-              <img src="../assets/images/prov-narrrator-pg1.png">
-              <figcaption class="fig-caption" > <a href="https://github.com/jossai1/angular-story-editor/tree/final" target="_blank"> Interactive Tool for creating stories </a></figcaption>
-          </figure>
-      </div>
+            <a style="float:right" href="http://lyrics-now.herokuapp.com/#/" target="_blank">
+              <i class="external icon"></i>
+              View on Heroku
+            </a>
 
-      <div class="col-sm-4 portfolio-item">
-        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">  </a>
-          <figure>
-            <img style="width:200px;height:250px;" src="../assets/images/unify.png">
-            <figcaption class="fig-caption" > <a href="#Portfolio"> Mobile app built with Ionic </a></figcaption>
-          </figure>
-      </div>
+          </div>
+        </div>
 
+        <div class="ui card">
+          <div class="image">
+            <img style="height: 193px;" src="../assets/images/meeting-room.png">
+          </div>
+          <div class="content">
+            <a class="header">Survey System + results dashboard</a>
+            <div class="meta">
+              <span class="date">June 2016</span>
+            </div>
+            <div class="description">
+            Designed and developed a survey system with an accompanying dashboard using the MEAN Stack. Used the system to gather data, collate and evaluate the results. Deplyed system to work on tablets.
+            </div>
+          </div>
+          <div class="extra content">
+            <a href="https://github.com/jossai1/meeting-room" target="_blank">
+              <i class="github icon"></i>
+              Code
+            </a>
+          </div>
+        </div>
+
+
+        <div class="ui card">
+          <div class="image">
+            <img style="height:193px;" src="../assets/images/unify.png">
+          </div>
+          <div class="content">
+            <a class="header">Ionic Mobile Application</a>
+            <div class="meta">
+              <span class="date">July 2016</span>
+            </div>
+            <div class="description">
+              Developed a module review based mobile application for University students using the Ionic Framework and Firebase.
+            </div>
+          </div>
+          <div class="extra content">
+            <!-- <a href="https://github.com/jossai1/meeting-room" target="_blank">
+              <i class="github icon"></i>
+              Code
+            </a> -->
+          </div>
+        </div>
+
+        <div class="ui card">
+          <div class="image">
+            <img style="height:193px;" src="../assets/images/git-search1.png">
+          </div>
+          <div class="content">
+            <a class="header">GitHub Search</a>
+            <div class="meta">
+              <span class="date">June 2017</span>
+            </div>
+            <div class="description">
+              Allows you to search for a github user by username, displays the user's followers, profile picture and other user realted info.
+              Built using Angular 2 and uses the Github API.
+            </div>
+          </div>
+          <div class="extra content">
+            <a href="https://github.com/jossai1/git-search" target="_blank">
+              <i class="github icon"></i>
+              Code
+            </a>
+          </div>
+        </div>
+
+
+        <div class="ui card">
+          <div class="image">
+            <img style="height:193px;" src="../assets/images/bible-bot.png">
+          </div>
+          <div class="content">
+            <a class="header">BibleBot</a>
+            <div class="meta">
+              <span class="date">June 2017</span>
+            </div>
+            <div class="description">
+              Allows users to find bible verses by searching for how they feel/keywords.
+              Built using Angular 2 and uses the Bible API.
+            </div>
+          </div>
+          <div class="extra content">
+            <a href="https://github.com/jossai1/bible-bot" target="_blank">
+              <i class="github icon"></i>
+              Code
+            </a>
+
+            <a style="float:right" href="https://bible--bot.herokuapp.com" target="_blank">
+              <i class="external icon"></i>
+              View on Heroku
+            </a>
+          </div>
+        </div>
+
+        <div class="ui card">
+          <div class="image">
+            <img src="../assets/images/prov-narrrator-pg1.png">
+          </div>
+          <div class="content">
+            <a class="header">Interactive Story Editor </a>
+            <div class="meta">
+              <span class="date">January 2017 - March 2017</span>
+            </div>
+            <div class="description">
+              Prov-Narrator is an interactive web-based tool for creating provenance-based narratives. User's have access to all the tools required to build thier stories. The tool converts the story to a provenance document and exports it to the ProvStore.
+            </div>
+          </div>
+          <div class="extra content">
+            Please
+            <a style="color:#4183C4" class="page-scroll" href="#contact">
+            contact me
+            </a>
+            if you'd like to view a demo of this project.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
 </section>
 
 <!-- Contact Section -->
@@ -146,13 +279,13 @@
     <div class="row">
       <div class="col-lg-12">
         <h1>Contact Section</h1>
-        <p> Drop me an <a href="mailto:jane.ossai@gmail.com?Subject=Hello%20Jane" target="_top"> e-mail</a> if you'd like to get in contact with me </p>
+        <p> Drop me an <a href="mailto:jane.ossai@gmail.com?Subject=Hello%20Jane" target="_top"> e-mail</a> if you'd like to get in contact.</p>
       </div>
     </div>
   </div>
 </section>
 
-<footer class="text-center">
+<footer style="background-color: #eeeeee;" class="text-center">
   <div class="footer-above">
     <div class="container">
       <div class="row">
@@ -161,7 +294,7 @@
                         <p>3481 Melrose Place
                             <br>Beverly Hills, CA 90210</p>
                     </div> -->
-        <div class="footer-col col-md-4">
+        <div>
           <h1>Around the Web</h1>
           <ul class="list-inline">
 
@@ -186,7 +319,7 @@
   <div class="footer-below">
     <div class="container">
       <div class="row">
-        <div style="color: silver" class="col-lg-12">
+        <div style="color: #caa0a0" class="col-lg-12">
           Copyright © Jane Ossai 2017
         </div>
       </div>

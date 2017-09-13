@@ -53,7 +53,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .portfolio-section {
-    height: 140%; /*adjust/increase to accomodate space for cards*/
+    height: 160%; /*adjust/increase to accomodate space for cards*/
     padding-top: 150px;
     background: #eee;
 }

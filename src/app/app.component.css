@@ -23,7 +23,9 @@ h5{
 .profile-img img{
   border-radius: 50%;
   font-size: 4px;
-  width:250px;
+  /*width:250px;*/
+  max-width: 25%;
+  height: auto;
 }
 
 .profile-img {
@@ -115,3 +117,14 @@ p {
 span{
   letter-spacing: 0.225rem;
 }
+
+
+
+/*responsive styling*/
+
+@media(max-width:360px) {
+
+    .skills a{
+      font-size: medium;
+    }
+  }

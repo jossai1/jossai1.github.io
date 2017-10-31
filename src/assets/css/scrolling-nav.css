@@ -25,6 +25,7 @@ html {
     .top-nav-collapse {
         padding: 0;
     }
+
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -32,29 +33,30 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 100%;
+    height: 95%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
 .skills-section {
-    height: 70%;
-    padding-top: 150px;
+    height: 60%;
+    padding-top: 73px;
     text-align: center;
     background: #fff;
 }
 
 .about-section {
-    height: 70%;
-    padding-top: 150px;
+    height: 50%;
+    padding-top: 73px;
     text-align: center;
     background: #eee;
 }
 
 .portfolio-section {
     height: 160%; /*adjust/increase to accomodate space for cards*/
-    padding-top: 150px;
+    padding-top: 73px;
+    text-align: center;
     background: #eee;
 }
 
@@ -66,8 +68,71 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
-    height: 50%;
-    padding-top: 150px;
+    height: 30%;
+    padding-top: 76px;
     text-align: center;
+    font-size: large;
     /*background: #eee;*/
+}
+
+footer{
+  padding-top: 14px;
+}
+
+
+@media(max-width:360px) {
+
+    /*.profile-img img{
+      max-width: 141px;
+    }*/
+
+    .intro-section {
+        height: 96%;
+        padding-top: 150px;
+        text-align: center;
+        /*background: red;*/
+    }
+
+    .skills a{
+      font-size: small;
+    }
+    .skills-section {
+        height: 100%;
+        padding-top: 73px;
+        text-align: center;
+        background: #fff;
+    }
+
+    .about-section {
+        height: 84%;
+        padding-top: 111px;
+        text-align: center;
+        background: #eee;
+    }
+
+    .portfolio-section {
+        text-align: center;
+        height:  408%; /*adjust/increase to accomodate space for cards*/
+        padding-top: 73px;
+        background: #eee;
+    }
+
+    .services-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #fff;
+    }
+
+    .contact-section {
+        height: 30%;
+        padding-top: 48px;
+        text-align: center;
+        font-size: large;
+        /*background: #eee;*/
+    }
+
+    footer{
+      padding-top: 14px;
+    }
 }

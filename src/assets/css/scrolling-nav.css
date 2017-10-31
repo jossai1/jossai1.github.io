@@ -80,7 +80,7 @@ footer{
 }
 
 
-@media(max-width:360px) {
+@media(max-width:450px) {
 
     /*.profile-img img{
       max-width: 141px;
@@ -105,7 +105,7 @@ footer{
 
     .about-section {
         height: 84%;
-        padding-top: 111px;
+        padding-top: 73px;
         text-align: center;
         background: #eee;
     }

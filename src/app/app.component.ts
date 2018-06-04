@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
   //skills: Array<String>;
-  skills: string[] = ['Angular 1,2 & 4', 'Java', 'Spring Boot', 'HTML','CSS', 'JS', 'Firebase', 'Interaction Design','Cloud application development', 'SQL', 'MSSQL', 'MongoDB', 'MEAN Stack', 'Ionic Framework', 'Agile Application Development'
+  skills: string[] = ['Angular 1,2 & 4', 'Java', 'Spring Boot', 'HTML','CSS', 'JS', 'Firebase', 'UX/UI','Accessibility','Cloud application development', 'SQL', 'MSSQL', 'MongoDB', 'MEAN Stack', 'Ionic Framework', 'Agile Application Development'
   ,'Unity', 'Python', 'Communication', 'Teamwork', 'Presentation Skills', 'Customer Service'];
 };

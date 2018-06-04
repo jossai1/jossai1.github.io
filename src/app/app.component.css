@@ -5,11 +5,11 @@ h1 {
   color: silver;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  color: #caa0a0;
+  color: #9c4c4c;
 }
 
 h4{
-  color: rgb(174, 169, 131); /*dusty gold*/
+  color: #c0a983; /*dusty gold*/
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
@@ -40,8 +40,8 @@ h5{
 }
 
 .skill {
-  background-color: #c0a983!important;
-  border-color: #E03997!important;
+  background-color: #8c6f44!important;
+  border-color: #8c6f44!important;
   color: white !important;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
@@ -85,7 +85,7 @@ hr{
 }
 
 .list-inline li a {
-  border: solid 1px rgb(174, 169, 131);
+  border: solid 1px #615b33;
   display: flex;
   align-items: center;
   /*border-radius: 100%;*/
@@ -107,12 +107,13 @@ hr{
 
 .btn-social{
   font-size: 50px;
-  color: #c8cccf;
+  color: #615b33;
 }
 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   letter-spacing: 0.225rem;
+  font-size: 16px;
 }
 span{
   letter-spacing: 0.225rem;

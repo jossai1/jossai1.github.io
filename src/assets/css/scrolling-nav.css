@@ -110,7 +110,10 @@ footer{
     }
 
     .portfolio-section {
-        height:  720%; /*adjust/increase to accomodate space for cards*/
+        /*height:  720%;*/ /*adjust/increase to accomodate space for cards*/
+        /*test to see if the portfolio scales on mobile   */
+        height: 720vh;
+        overflow: hidden;
         padding-top: 73px;
         background: #eee;
     }

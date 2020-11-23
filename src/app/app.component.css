@@ -1,6 +1,7 @@
-p{
+p {
   font-size: 14px;
 }
+
 h1 {
   color: silver;
   font-family: 'Source Sans Pro', sans-serif;
@@ -8,19 +9,19 @@ h1 {
   color: #9c4c4c;
 }
 
-h4{
+h4 {
   color: #c0a983; /*dusty gold*/
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 
-h5{
+h5 {
   color: #98878f;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 
-.profile-img img{
+.profile-img img {
   border-radius: 50%;
   font-size: 4px;
   /*width:250px;*/
@@ -33,23 +34,39 @@ h5{
 }
 
 p > a {
- color: #9c4c4c;
+  color: #9c4c4c;
 }
 
 #readmore {
   margin: 2%;
 }
 
-.portfolio-item img{
+.portfolio-item img {
   width: 324px;
   height: 219px;
   margin-top: 15%;
   /*border-radius: 5%;*/
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  padding: 15px;
+  background-color: #caa098;
+  color: whitesmoke;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
 .skill {
-  background-color: #4a260e70!important;
-  border-color: #4a260e70!important;
+  background-color: #4a260e70 !important;
+  border-color: #4a260e70 !important;
   color: white !important;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
@@ -65,35 +82,40 @@ p > a {
   transition: all .2s ease-in-out;
 }
 
-.grow:hover { transform: scale(1.1); }
+.grow:hover {
+  transform: scale(1.1);
+}
 
 .fig-caption a {
   color: rgb(174, 169, 131); /*dusty gold*/
-  text-decoration:none;
+  text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   letter-spacing: 0.225rem;
 }
+
 a:hover {
-    color: #98878f;
+  color: #98878f;
 }
 
 .link a {
   color: #192231;
 }
+
 .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 
 }
-hr{
+
+hr {
   /*background-color: silver;
   border:none;*/
   height: 1px;
 }
 
 .list-inline li a {
-  border: solid 1px #615b33;
+  /*border: solid 1px #615b33;*/
   display: flex;
   align-items: center;
   /*border-radius: 100%;*/
@@ -108,33 +130,38 @@ hr{
 
 }
 
-.list-inline li a:hover{
+.list-inline li a:hover {
   color: rgb(174, 169, 131);
   text-decoration: none;
 }
 
-.btn-social{
+.btn-social {
   font-size: 50px;
   color: #615b33;
 }
+
 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   letter-spacing: 0.225rem;
   font-size: 16px;
 }
-span{
+
+span {
   letter-spacing: 0.225rem;
 }
 
-
-
 /*responsive styling*/
 
-@media(max-width:360px) {
+@media (max-width: 360px) {
 
-    .skills a{
-      font-size: medium;
-    }
-
+  .skills a {
+    font-size: medium;
   }
+
+  #myBtn {
+    right: 9px;
+    font-size: 16px;
+    bottom: 15px;
+  }
+}

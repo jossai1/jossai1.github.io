@@ -96,14 +96,14 @@ footer {
   }
 
   .skills-section {
-    height: 105%;
+    height: fit-content;
     padding-top: 73px;
     text-align: center;
     background: #fff;
   }
 
   .about-section {
-    height: 88%;
+    height: fit-content;
     padding-top: 73px;
     text-align: center;
     background: #eee;

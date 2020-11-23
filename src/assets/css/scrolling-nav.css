@@ -5,26 +5,26 @@
  */
 
 body {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
 
-    .top-nav-collapse {
-        padding: 0;
-    }
+  .top-nav-collapse {
+    padding: 0;
+  }
 
 }
 
@@ -33,107 +33,107 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 104%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+  /*height: 104%;*/
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
 }
 
 .skills-section {
-    height: 60%;
-    padding-top: 73px;
-    text-align: center;
-    background: #fff;
+  height: 60%;
+  padding-top: 73px;
+  text-align: center;
+  background: #fff;
 }
 
 .about-section {
-    height: 50%;
-    padding-top: 73px;
-    text-align: center;
-    background: #eee;
+  height: 50%;
+  padding-top: 73px;
+  text-align: center;
+  background: #eee;
 }
 
 .portfolio-section {
-    height: 260%; /*adjust/increase to accomodate space for cards*/
-    padding-top: 73px;
-    background: #eee;
+  height: fit-content; /*adjust/increase to accomodate space for cards*/
+  padding-top: 73px;
+  background: #eee;
 }
 
 .services-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
 }
 
 .contact-section {
-    height: 30%;
-    padding-top: 76px;
-    text-align: center;
-    font-size: large;
-    /*background: #eee;*/
+  height: 30%;
+  padding-top: 76px;
+  text-align: center;
+  font-size: large;
+  /*background: #eee;*/
 }
 
-footer{
+footer {
   padding-top: 14px;
 }
 
 
-@media(max-width:450px) {
+@media (max-width: 450px) {
 
-    /*.profile-img img{
-      max-width: 141px;
-    }*/
+  /*.profile-img img{
+    max-width: 141px;
+  }*/
+  .intro-section {
+    /*height: 105%;*/
+    padding-top: 150px;
+    text-align: center;
+    /*background: red;*/
+  }
 
-    .intro-section {
-        height: 105%;
-        padding-top: 150px;
-        text-align: center;
-        /*background: red;*/
-    }
+  .skills a {
+    font-size: small;
+  }
 
-    .skills a{
-      font-size: small;
-    }
-    .skills-section {
-        height: 105%;
-        padding-top: 73px;
-        text-align: center;
-        background: #fff;
-    }
+  .skills-section {
+    height: 105%;
+    padding-top: 73px;
+    text-align: center;
+    background: #fff;
+  }
 
-    .about-section {
-        height: 84%;
-        padding-top: 73px;
-        text-align: center;
-        background: #eee;
-    }
+  .about-section {
+    height: 88%;
+    padding-top: 73px;
+    text-align: center;
+    background: #eee;
+  }
 
-    .portfolio-section {
-        /*height:  720%;*/ /*adjust/increase to accomodate space for cards*/
-        /*test to see if the portfolio scales on mobile   */
-        height: 720vh; /*fix for overflowing portfolio section on mobile - verified and works*/
-        overflow: hidden; /*fix for overflowing portfolio section on mobile - verified and works*/
-        padding-top: 73px;
-        background: #eee;
-    }
+  .portfolio-section {
+    /*height:  720%;*/ /*adjust/increase to accomodate space for cards*/
+    /*test to see if the portfolio scales on mobile   */
+    height: fit-content; /*fix for overflowing portfolio section on mobile - verified and works*/
+    overflow: hidden; /*fix for overflowing portfolio section on mobile - verified and works*/
+    padding-top: 73px;
+    background: #eee;
+  }
 
-    .services-section {
-        height: 100%;
-        padding-top: 150px;
-        text-align: center;
-        background: #fff;
-    }
+  .services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+  }
 
-    .contact-section {
-        height: 30%;
-        padding-top: 48px;
-        text-align: center;
-        font-size: large;
-        /*background: #eee;*/
-    }
+  .contact-section {
+    height: 30%;
+    padding-top: 48px;
+    text-align: center;
+    font-size: large;
+    /*background: #eee;*/
+  }
 
-    footer{
-      padding-top: 14px;
-    }
+  footer {
+    padding-top: 14px;
+  }
 }

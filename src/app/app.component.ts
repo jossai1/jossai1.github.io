@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
-  //skills: Array<String>;
-  skills: string[] = ['Angular 1,2 & 4', 'Java', 'Spring Boot', 'HTML','CSS', 'JS', 'Firebase', 'UX/UI','Accessibility','Cloud application development', 'SQL', 'MSSQL', 'MongoDB', 'MEAN Stack', 'Ionic Framework', 'Agile Application Development'
-  ,'Unity', 'Python', 'Communication', 'Teamwork', 'Presentation Skills', 'Customer Service'];
+  techSkills: string[] = ['JavaScript (ES6)', 'Typescript', 'HTML', 'CSS',
+    'Angular2+', 'VueJS', 'AngularJS', 'React', 'Java', 'Spring Boot',
+    'Jasmine', 'Jest', 'Maven', 'Mockito', 'Unit Testing (JUnit)',
+    'Node.js', 'Express', 'MongoDB', 'Firebase', 'UX/UI', 'Accessibility', 'Cloud application development', 'MEAN Stack'];
+
+  softSkills: string[] = ['Software engineering', 'Frontend development', 'Backend development', 'Problem-solving'];
+
+  skills: string[] = this.techSkills.concat(this.softSkills);
 };

@@ -32,6 +32,14 @@ h5{
   text-align: center;
 }
 
+p > a {
+ color: #9c4c4c;
+}
+
+#readmore {
+  margin: 2%;
+}
+
 .portfolio-item img{
   width: 324px;
   height: 219px;
@@ -40,8 +48,8 @@ h5{
 }
 
 .skill {
-  background-color: #8c6f44!important;
-  border-color: #8c6f44!important;
+  background-color: #4a260e70!important;
+  border-color: #4a260e70!important;
   color: white !important;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;

@@ -26,6 +26,32 @@ html {
     padding: 0;
   }
 
+  button.enterSiteBtn.ui.inverted.basic.button {
+    position: absolute;
+    height: 82px;
+    width: 250px;
+    margin-left: -125px;
+    margin-top: -41px;
+    top: 86%;
+    left: 27%;
+    z-index: 99;
+  }
+
+  .videoContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+    position: relative
+  }
+
+  video#myVideo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 90px auto 0;
+  }
+
+
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -34,7 +60,8 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
   /*height: 104%;*/
-  padding-top: 150px;
+  /*padding-top: 150px;*/
+  padding-top: 5%;
   text-align: center;
   background: #fff;
 }
@@ -86,7 +113,8 @@ footer {
   }*/
   .intro-section {
     /*height: 105%;*/
-    padding-top: 150px;
+    /*padding-top: 150px;*/
+    /*padding-top: 5%;*/
     text-align: center;
     /*background: red;*/
   }
@@ -137,4 +165,27 @@ footer {
   footer {
     padding-top: 14px;
   }
+
+  video#myVideo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 51px auto 0;
+  }
+
+  button.enterSiteBtn.ui.inverted.basic.button {
+    position: absolute;
+    top: 98%;
+    left: 48%;
+    margin-left: -125px;
+    margin-top: -41px;
+    z-index: 99;
+  }
+
+  .videoContainer {
+    width: 100%;
+    text-align: center;
+    position: relative
+  }
+
 }

@@ -1,9 +1,10 @@
 <div class="videoContainer">
-  <video id="myVideo" autoplay muted preload="auto" playsinline>
+  <!-- video was too large to load - replaced with image below <video id="myVideo" autoplay muted loop playsinline  poster="assets/images/janevideoposter.svg">
     <source src="assets/images/jane-temp-video2.webm" type="video/webm">
     <source src="assets/images/jane-temp-video2.mp4" type="video/mp4">
     Your browser does not support the video tag.
-  </video>
+  </video>-->
+  <img id="myVideo" src="assets/images/janevideoposter.png" alt="">
   <a class=" page-scroll" href="#intro">
     <button class="ui inverted basic button enterSiteBtn">ENTER
     </button>
@@ -139,7 +140,10 @@
       <div class="ui three stackable cards">
         <div class="ui card">
           <div class="image">
-            <img alt="" style="height:193px;" src="../assets/images/bible-bot.gif">
+            <video height="193px" width="346px" autoplay loop muted playsinline>
+              <source type="video/mp4" src="../assets/images/bible-bot.mp4">
+              <source type="video/webm" src="../assets/images/bible-bot.webp">
+            </video>
           </div>
           <div class="content">
             <a class="header">BibleBot</a>
@@ -217,10 +221,6 @@
             </div>
           </div>
           <div class="extra content">
-            <!-- <a href="https://github.com/jossai1/bible-bot" target="_blank">
-            <i class="github icon"></i>
-            Code
-          </a> -->
             Please <a href="#contact" style="text-decoration: underline;color: #9c4c4c">email</a> for access token
             (paid)
             <a style="float:right" href="https://career-finder-ec596.appspot.com/" target="_blank">
@@ -231,7 +231,10 @@
         </div>
         <div class="ui card">
           <div class="image">
-            <img alt="" style="height:193px;" src="../assets/images/classi-calc.gif">
+            <video height="193px" width="346px" autoplay loop muted playsinline>
+              <source type="video/mp4" src="../assets/images/classi-calc.mp4">
+              <source type="video/webm" src="../assets/images/classi-calc.webm">
+            </video>
           </div>
           <div class="content">
             <a class="header">Classi-Calc</a>
@@ -243,11 +246,6 @@
             </div>
           </div>
           <div class="extra content">
-            <!-- <a href="https://github.com/jossai1/bible-bot" target="_blank">
-            <i class="github icon"></i>
-            Code
-          </a> -->
-
             <a style="float:right" href="https://classi-calc.appspot.com" target="_blank">
               <i class="external icon"></i>
               visit site
@@ -268,11 +266,6 @@
             </div>
           </div>
           <div class="extra content">
-            <!-- <a href="https://github.com/jossai1/bible-bot" target="_blank">
-              <i class="github icon"></i>
-              Code
-            </a> -->
-
             <a style="float:right" href="http://data-story.herokuapp.com/" target="_blank">
               <i class="external icon"></i>
               View on Heroku
@@ -281,7 +274,10 @@
         </div>
         <div class="ui card">
           <div class="image">
-            <img alt="" style="height:193px;" src="../assets/images/gif-tut.gif">
+            <video height="193px" width="346px" autoplay loop muted playsinline>
+              <source type="video/mp4" src="../assets/images/gif-tut.mp4">
+              <source type="video/webm" src="../assets/images/gif-tut.webp">
+            </video>
           </div>
           <div class="content">
             <a class="header">Open Data visualisation</a>
@@ -333,7 +329,7 @@
         </div>
         <div class="ui card">
           <div class="image">
-            <img alt="" style="height:193px;" src="../assets/images/git-search1.png">
+            <img alt="" style="height:193px;" src="../assets/images/git-search.png">
           </div>
           <div class="content">
             <a class="header">GitHub Search</a>
@@ -375,7 +371,7 @@
         </div>
         <div class="ui card">
           <div class="image">
-            <img alt="" style="height: 193px;" src="../assets/images/lyrics-now.jpg">
+            <img alt="" style="height: 193px;" src="../assets/images/lyric-app.png">
           </div>
           <div class="content">
             <a class="header">Lyric Finder</a>

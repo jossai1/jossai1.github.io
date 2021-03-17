@@ -7,6 +7,8 @@ import {Component, OnInit} from '@angular/core';
 })
 export class AppComponent implements OnInit{
   title = 'app works!';
+  showGifHeader = true;
+  // showSvgHeader = false;
   techSkills: string[] = ['JavaScript (ES6)', 'Typescript', 'HTML', 'CSS',
     'Angular2+', 'VueJS', 'AngularJS', 'React', 'Java', 'Spring Boot',
     'Jasmine', 'Jest', 'Maven', 'Mockito', 'Unit Testing (JUnit)',
@@ -17,6 +19,7 @@ export class AppComponent implements OnInit{
   skills: string[] = this.techSkills.concat(this.softSkills);
 
   ngOnInit(): void {
+    this.showGifHeader = false;
     // Get the button
     const mybutton = document.getElementById('myBtn');
 

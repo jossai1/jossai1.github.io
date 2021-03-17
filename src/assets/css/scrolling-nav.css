@@ -44,7 +44,7 @@ html {
     position: relative
   }
 
-  video#myVideo {
+  #myVideo {
     max-width: 100%;
     height: auto;
     display: block;
@@ -166,7 +166,7 @@ footer {
     padding-top: 14px;
   }
 
-  video#myVideo {
+  #myVideo {
     max-width: 100%;
     height: auto;
     display: block;
